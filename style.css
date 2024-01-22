@@ -33,3 +33,48 @@
 .icono_contactar{
     padding-left: 580px;
 }
+
+  
+
+.header_champs {
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #3498dbc5; /* Color del borde */
+    color: #2981bb; /* Color del texto */
+    background-color: white; /* Color de fondo */
+    border-radius: 5px; /* Esquinas redondeadas */
+    transition: background-color 0.3s, color 0.3s; /* Transiciones suaves */
+  }
+  
+  /* Cambio de estilo al pasar el mouse */
+  .header_champs {
+    background-color: #1e6ea3; /* Color de fondo al pasar el mouse */
+    color: white; /* Color del texto al pasar el mouse */
+  }
+  
+  .header_champs {
+    width: 100%;
+    background: url("/multimedia/fondo.jpg");
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+.fondo-3 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+.fondo-0 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    position:absolute;
+    top: 180px;
+    left: 20px;
+}
